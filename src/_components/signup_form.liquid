@@ -1,117 +1,76 @@
-<div class="container containerModal noTopMargin padding40-top padding40-bottom padding40H borderSolid border3px cornersAll bgNoRepeat shadow30 emptySection smallContainer noBounce radius0 noBorder" id="modalPopup" data-title="Modal" data-block-color="0074C7" style="margin-top: 50px; padding-top: 0px; padding-bottom: 0px; outline: none; position: fixed; background-color: rgb(255, 255, 255); display: none;" data-trigger="none" data-animate="top" data-delay="0">
-  <div class="containerInner ui-sortable" style="padding-left: 0px; padding-right: 0px;">
-    <div class="row bgCover noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" id="row--49407-180" data-trigger="none" data-animate="fade" data-delay="500" data-title="1 column row - Clone" style="padding-top: 25px; padding-bottom: 25px; margin: 0px; outline: none;">
-      <div id="col-full-189-126" class="col-md-12 innerContent col_left" data-col="full" data-trigger="none" data-animate="fade" data-delay="500" data-title="1st column" style="outline: none;">
+<div id="modalPopup" class="overlay">
+  <div class="container popup">
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+        <div class="containerInner ui-sortable" style="padding-left: 0px; padding-right: 0px;">
+    <div class="row bgCover noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" id="row--49407-180" style="padding-top: 25px; padding-bottom: 25px; margin: 0px; outline: none;">
+      <div class="col-md-12 innerContent col_left" style="outline: none;">
         <div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style="padding: 0 10px">
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="headline-96767" data-de-type="headline" data-de-editing="false" data-title="sub headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 0px; outline: none; cursor: pointer; display: block; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
-            <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize2 mfs_15 padding5" style="text-align: center; color: rgb(0, 0, 0); font-size: 16px; background-color: rgba(0, 0, 0, 0.04);" data-bold="inherit" contenteditable="false">Get Your LIVE Link Below...
+          <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 0px; outline: none; cursor: pointer; display: block; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
+            <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize2 mfs_15 padding5" style="text-align: center; color: rgb(0, 0, 0); font-size: 16px; background-color: rgba(0, 0, 0, 0.04);">{{ data.snackbar}}
             </div>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_headline1-71641" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
-            <h1 class="ne elHeadline hsSize3 elMargin0 elBGStyle0 hsTextShadow0 lh3 mfs_24" style="text-align: center; font-size: 32px; color: rgb(0, 0, 0);" data-bold="inherit" data-gramm="false" contenteditable="false"><font color="rgba(0, 0, 0, 0.29)"><b>Join The FREE Masterclass &amp; Get A FREE Copy Of The Daily LeadFlow Calculator!</b></font></h1>
+          <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
+            <h1 class="ne elHeadline hsSize3 elMargin0 elBGStyle0 hsTextShadow0 lh3 mfs_24" style="text-align: center; font-size: 32px; color: rgb(0, 0, 0);"><font color="var(--pale-blue)"><b>{{ data.headline }}</b></font></h1>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="headline-78869" data-de-type="headline" data-de-editing="false" data-title="sub headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 20px; outline: none; cursor: pointer; display: block; background-color: rgba(0, 0, 0, 0); font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
-            <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize2 padding5 mfs_18" style="text-align: left; color: rgb(0, 0, 0); font-size: 20px; background-color: rgba(0, 0, 0, 0);" data-bold="inherit" contenteditable="false">
+          <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 20px; outline: none; cursor: pointer; display: block; background-color: rgba(0, 0, 0, 0); font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
+            <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize2 padding5 mfs_18" style="text-align: left; color: rgb(0, 0, 0); font-size: 20px; background-color: rgba(0, 0, 0, 0);">
               <b><u>Step 1</u>:</b> Register To Join
             </div>
           </div>
-          <div class="de elInputWrapper de-input-block elAlign_center elMargin0 ui-droppable de-editable" id="tmp_input-95144" data-de-type="input" data-de-editing="false" data-title="input" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" type="first_name" style="margin-top: 5px; outline: none; cursor: pointer;" aria-disabled="false">
+          <div class="de elInputWrapper de-input-block elAlign_center elMargin0 ui-droppable de-editable" type="first_name" style="margin-top: 5px; outline: none; cursor: pointer;" aria-disabled="false">
             <input type="first_name" placeholder="First Name" name="first_name" class="elInput elInput100 elAlign_left elInputMid elInputStyl0 elInputBG1 elInputI0 elInputIBlack elInputIRight ceoinput required1 elInputBR0 garlic-auto-save" data-type="extra" style="font-size: 14px;">
           </div>
-          <div class="de elInputWrapper de-input-block elAlign_center elMargin0 ui-droppable de-editable" id="input-22987" data-de-type="input" data-de-editing="false" data-title="input" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" type="last_name" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
+          <div class="de elInputWrapper de-input-block elAlign_center elMargin0 ui-droppable de-editable" type="last_name" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
             <input type="last_name" placeholder="Last Name" name="last_name" class="elInput elInput100 elAlign_left elInputMid elInputStyl0 elInputBG1 elInputI0 elInputIBlack elInputIRight ceoinput required1 elInputBR0 garlic-auto-save" data-type="extra" style="font-size: 14px;">
             <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
             </div>
           </div>
-          <div class="de elInputWrapper de-input-block elAlign_center elMargin0 ui-droppable de-editable" id="input-28887" data-de-type="input" data-de-editing="false" data-title="input" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" type="email" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
+          <div class="de elInputWrapper de-input-block elAlign_center elMargin0 ui-droppable de-editable" type="email" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
             <input type="email" placeholder="Email" name="email" class="elInput elInput100 elAlign_left elInputMid elInputStyl0 elInputBG1 elInputI0 elInputIBlack elInputIRight ceoinput required1 elInputBR0 garlic-auto-save" data-type="extra" style="font-size: 14px;">
             <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
             </div>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="headline-81556" data-de-type="headline" data-de-editing="false" data-title="sub headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 10px; outline: none; cursor: pointer; display: block; background-color: rgba(0, 0, 0, 0); font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
-            <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize2 padding5 mfs_18" style="text-align: left; color: rgb(0, 0, 0); font-size: 20px; background-color: rgba(0, 0, 0, 0);" data-bold="inherit" contenteditable="false">
-              <b><u>Step 2</u>: </b>Help Me Understand YOU!
+          <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 10px; outline: none; cursor: pointer; display: block; background-color: rgba(0, 0, 0, 0); font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
+            <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize2 padding5 mfs_18" style="text-align: left; color: rgb(0, 0, 0); font-size: 20px; background-color: rgba(0, 0, 0, 0);">
+              <b><u>Step 2</u>: </b>{{ data.prompt }}
             </div>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_subheadline-94058" data-de-type="headline" data-de-editing="false" data-title="sub-headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" data-gramm="false" style="margin-top: 0px; outline: none; cursor: pointer;" aria-disabled="false">
-            <h2 class="ne elHeadline hsSize2 lh3 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: left; font-size: 14px; color: rgba(0, 0, 0, 0.45);" data-bold="inherit" data-gramm="false" contenteditable="false">(check <i>all</i> that apply)</h2>
+          <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 0px; outline: none; cursor: pointer;" aria-disabled="false">
+            <h2 class="ne elHeadline hsSize2 lh3 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: left; font-size: 14px; color: rgba(0, 0, 0, 0.45);">(check <i>all</i> that apply)</h2>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_cb_headline1-71640" data-de-type="cb_headline" data-de-editing="false" data-title="checkbox headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" data-cb-required="yes" data-field-name="" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
+          <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
             <input class="elInput elHeadlineCheckbox required0 garlic-auto-save" type="checkbox" name="custom_type" data-type="extra" data-custom-type="accepted_terms" value="false" data-required="yes" data-eu-only="no" tabindex="0">
-            <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: left; font-size: 16px;" data-bold="inherit" data-gramm="false" contenteditable="false">"I get more leads than I can handle!"
+            <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: left; font-size: 16px;" data-bold="inherit" data-gramm="false" contenteditable="false">"{{ data.option1 }}"
             </div>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="cb_headline-68310" data-de-type="cb_headline" data-de-editing="false" data-title="checkbox headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" data-cb-required="yes" data-field-name="" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
+          <div class="de elHeadlineWrapper ui-droppable de-editable" data-field-name="" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
             <input class="elInput elHeadlineCheckbox required0 garlic-auto-save" type="checkbox" name="custom_type" data-type="extra" data-custom-type="accepted_terms" value="false" data-required="yes" data-eu-only="no" tabindex="0">
             <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: left; font-size: 16px;" data-bold="inherit" data-gramm="false" contenteditable="false">
-            "I get leads, but the <i>wrong</i> ones!"</div>
+            "{{ data.option2 }}"</div>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="cb_headline-78282" data-de-type="cb_headline" data-de-editing="false" data-title="checkbox headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" data-cb-required="yes" data-field-name="" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
+          <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
             <input class="elInput elHeadlineCheckbox required0 garlic-auto-save" type="checkbox" name="custom_type" data-type="extra" data-custom-type="accepted_terms" value="false" data-required="yes" data-eu-only="no" tabindex="0">
-            <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: left; font-size: 16px;" data-bold="inherit" data-gramm="false" contenteditable="false">"I get inconsistent / unreliable leads!"</div>
+            <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: left; font-size: 16px;">"{{ data.option3 }}"</div>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="cb_headline-92510" data-de-type="cb_headline" data-de-editing="false" data-title="checkbox headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" data-cb-required="yes" data-field-name="" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
-            <input class="elInput elHeadlineCheckbox required0 garlic-auto-save" type="checkbox" name="custom_type" data-type="extra" data-custom-type="accepted_terms" value="false" data-required="yes" data-eu-only="no" tabindex="0">
-            <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: left; font-size: 16px;" data-bold="inherit" data-gramm="false" contenteditable="false">"I really don't get any LeadFlow!"</div>
-          </div>
-          <div class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" id="tmp_button-77256" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 25px; outline: none; cursor: pointer;" aria-disabled="false" data-elbuttontype="1">
+          <div class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" style="margin-top: 25px; outline: none; cursor: pointer;" aria-disabled="false" data-elbuttontype="1">
             <a href="#submit-form" class="elButton elButtonSize1 elButtonColor1 elButtonRounded elButtonPadding2 elBtnVP_10 elButtonCorner3 elButtonFluid elBtnHP_25 elBTN_b_1 elButtonShadowN1 elButtonTxtColor1 mfs_17" style="color: rgb(255, 255, 255); font-weight: 600; background-color: var(--blue); font-size: 20px;" rel="noopener noreferrer" data-previous-content="&lt;span class=&quot;elButtonMain&quot;&gt;Watch The Masterclass And Claim Your Free Daily LeadFlow Calculator&lt;i class=&quot;fa_appended fas fa-arrow-alt-circle-right&quot; contenteditable=&quot;false&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;span class=&quot;elButtonSub&quot;&gt;&lt;/span&gt;" data-href-original="#submit-form">
-              <span class="elButtonMain">Watch The Masterclass And Claim Your Free Daily LeadFlow Calculator<i class="fa_appended fas fa-arrow-alt-circle-right" contenteditable="false"></i></span>
+              <span class="elButtonMain">{{ data.submit }}<i class="fa_appended fas fa-arrow-alt-circle-right" contenteditable="false"></i></span>
               <span class="elButtonSub"></span>
             </a>
           </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="headline-11045" data-de-type="headline" data-de-editing="false" data-title="footer text" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="display: block; margin-top: 10px; outline: none; cursor: pointer; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
-            <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize1" style="text-align: center; color: rgba(0, 0, 0, 0.62); font-size: 14px;" data-bold="inherit" contenteditable="false">* we will email you an hour before the masterclass so you wont miss any of it!</div>
+          <div class="de elHeadlineWrapper ui-droppable de-editable" style="display: block; margin-top: 10px; outline: none; cursor: pointer; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
+            <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize1" style="text-align: center; color: rgba(0, 0, 0, 0.62); font-size: 14px;">* we will email you an hour before the seminar so you wont miss any of it!</div>
           </div>
         </div>
       </div>
     </div>
   </div>
+    </div>
+  </div>
 </div>
-<div class="dropZoneForSections ui-droppable" style="display: none;">
-  <div class="dropIconr"><i class="fa fa-plus"></i></div>
-</div>
-<div class="cf_triggers hide" id="cf_trigger_CG6QGycMX9CpATf" data-survey-id="tmp_survey-83528" data-trigger-name="New Trigger" data-q-id="-" data-a-id="na" data-fb="off" data-fb-name="" data-gtm="off" data-gtm-name=""></div>
-  
 
-<div class="dropZoneForSections ui-droppable" style="display: none;">
-  <div class="dropIconr"><i class="fa fa-plus"></i></div>
-</div>
-<div class="container fullContainer noTopMargin padding20-top padding20-bottom padding40H noBorder borderSolid border3px cornersAll radius0 shadow0 bgNoRepeat emptySection" id="section--20720" data-title="Section" data-block-color="0074C7" style="padding-top: 100px; padding-bottom: 300px; outline: none; background-color: rgb(0, 0, 0); background-image: url(&quot;//7figureleadflow.com/hosted/images/0f/5a214acc5946b4a04466c3eb5a6cd4/secret-MLM-Hacks_background.png&quot;);display: none !important;" data-trigger="none" data-animate="fade" data-delay="500">
-  <div class="containerInner ui-sortable">
-    <div class="row bgCover noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" id="row-104" data-trigger="none" data-animate="fade" data-delay="500" data-title="1 column row" style="padding-top: 20px; padding-bottom: 20px; margin: 0px; outline: none;">
-      <div id="col-full-100-176" class="col-md-12 innerContent col_left" data-col="full" data-trigger="none" data-animate="fade" data-delay="500" data-title="1st column" style="outline: none;">
-        <div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style="padding: 0 10px">
-          <div class="de elImageWrapper de-image-block elAlign_center elMargin0 ui-droppable de-editable" id="tmp_image-89915-140" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 0px; outline: none; cursor: pointer;" aria-disabled="false">
-            <img src="7%20Figure%20LeadFlow_files/Secret-MLM-Hacks_Logo_2.png" class="elIMG ximg" alt="" data-src="https://secretmlmhacks.com/hosted/images/ea/651380757b11e8845d71092ef2f0b6/Secret-MLM-Hacks_Logo_2.png" tabindex="0" width="400">
-          </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_headline1-54046-101" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 0px; outline: none; cursor: pointer;" aria-disabled="false">
-          <h1 class="ne elHeadline hsSize3 elMargin0 elBGStyle0 hsTextShadow0 lh1 mfs_38" style="text-align: center; font-size: 92px; color: rgb(255, 255, 255);" data-bold="inherit" data-gramm="false" contenteditable="false"><b>* CLOSED *</b></h1>
-        </div>
-        <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_headline1-31377-137" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 20px; outline: none; cursor: pointer;" aria-disabled="false">
-          <h1 class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0 mfs_18" style="text-align: center; font-size: 22px; color: rgb(255, 255, 255);" data-bold="inherit" data-gramm="false" contenteditable="false">*I Sold The Secret MLM Hacks Program For Almost 3 Years And Helped My Students Make Over $3M With This Material. For Other Personal Opportunity Reasons, I've Chosen To Close Access To This Program.</h1>
-        </div>
-        <div class="de elSeperator elMargin0 ui-droppable de-editable" id="tmp_divider-48258-119" data-de-type="divider" data-de-editing="false" data-title="Divider" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 30px; outline: none; cursor: pointer;" aria-disabled="false"> 
-          <div class="elDivider elDividerStyle1 padding10-top padding10-bottom"> 
-            <div class="elDividerInner" data-align="center" data-width-border="50" data-height-border="10" style="border-color: rgb(71, 71, 71);">
-            </div> 
-          </div>
-        </div>
-        <div class="de elHeadlineWrapper ui-droppable de-editable" id="headline-94361-101" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 5px; outline: none; cursor: pointer;" aria-disabled="false">
-          <h1 class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0 hsTextShadow0 mfs_28" style="text-align: center; font-size: 32px; color: rgb(255, 255, 255);" data-bold="inherit" data-gramm="false" contenteditable="false">
-            <font color="rgba(0, 0, 0, 0.290196078431373)"><b>
-            <span style="color: rgb(13, 121, 241);">👉&nbsp;<a href="https://moderndownlinecoaching.com/" id="link-78802-857" class="" target="_blank" rel="noopener noreferrer" style="text-decoration-line: underline; color: rgb(13, 121, 241);">Click Here</a></span> To See How Else I Can Help Your Downline Grow</b>
-            </font>
-          </h1>
-        </div>
-            <div class="de elSeperator elMargin0 ui-droppable de-editable" id="divider-92906-156" data-de-type="divider" data-de-editing="false" data-title="Divider" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 5px; outline: none; cursor: pointer;" aria-disabled="false"> 
-              <div class="elDivider elDividerStyle1 padding10-top padding10-bottom"> 
-                <div class="elDividerInner" data-align="center" data-width-border="50" data-height-border="10" style="border-color: rgb(71, 71, 71);" data-style="solid">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+<div class="container containerModal noTopMargin padding40-top padding40-bottom padding40H borderSolid border3px cornersAll bgNoRepeat shadow30 emptySection smallContainer noBounce radius0 noBorder" id="modalPopup" data-title="Modal" data-block-color="0074C7" style="margin-top: 50px; padding-top: 0px; padding-bottom: 0px; outline: none; position: fixed; background-color: rgb(255, 255, 255); display: none;">
+
 </div>

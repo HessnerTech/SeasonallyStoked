@@ -13,7 +13,7 @@ layout: default
   {% render "7_testimonials", data: site.data.7_testimonials %}
 </div>
 
-{% render "signup_form" %}
+{% render "signup_form", data: site.data.signup_form %}
 {% render "loading_text" %}
 <div class="timer-expiration" style="display: none;">
   {{ site.data.event_details.date }}
