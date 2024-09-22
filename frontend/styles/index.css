@@ -1,0 +1,8 @@
+@import url("./lander.css");
+
+:root {
+  --blue: #084b91;
+  --pale-blue: #084b91bf;
+  --light-blue: #b4d3f2;
+  --white: #ffffff;
+}

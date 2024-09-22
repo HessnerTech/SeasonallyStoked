@@ -1,0 +1,20 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.metadata.title }}, {{ site.metadata.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.metadata.myvariable }}.
+
+title: Seasonally Stoked
+tagline: This site is totally awesome
+email: support@hessner.tech
+fb_page: https://www.facebook.com/groups/seasonallystoked/
+description: >-
+  Hit them snowy country roads with confidence that your Battery is backed up
+og-image:
+og-title:
+og-description: >-
+  Hit them snowy country roads with confidence that your Battery is backed up
+og-url: https://seasonallystoked.com
+canonical: https://seasonallystoked.com
+logo: images/seasonally-stoked-logo.png
+address: "702 19W Science Park West, New Territories, Hong Kong"
