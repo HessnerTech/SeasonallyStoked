@@ -16,6 +16,9 @@ layout: default
 
 {% render "signup_form", data: site.data.signup_form %}
 {% render "loading_text" %}
-<div class="timer-expiration" style="display: none;">
-  {{ site.data.event_details.date }}
-</div>
+<div class="event-start-expiration" style="display: none;">
+  {{ site.data.event_details.seminar_date }}</div>
+<div class="show-cart-expiration" style="display: none;">
+  {{ site.data.event_details.show_link_time }}</div>
+<div class="hide-cart-expiration" style="display: none;">
+  {{ site.data.event_details.close_cart_time }}</div>
