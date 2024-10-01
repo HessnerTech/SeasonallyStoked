@@ -1,0 +1,17 @@
+<div id="payment-link">
+  <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 0px; outline: none; cursor: pointer; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
+  <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0  mfs_28" style="text-align: center; font-size: 60px; color: rgb(255, 255, 255);">
+    {{ data.headline }}
+  </div>
+  <div class="de elHeadlineWrapper ui-droppable de-editable"style="margin-top: 0px; outline: none; cursor: pointer; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
+    <div class="ne elHeadline hsSize2 lh3 elMargin0 elBGStyle0  mfs_18" style="text-align: center; font-size: 26px; color: rgb(255, 255, 255);" >{{ data.sub_headline }}</div>
+  </div>
+</div>
+  <div class="row bgCover noBorder borderSolid border3px  radius10  P0-top P0-bottom P0H noTopMargin" style="display: flex; margin-bottom: 0px; outline: none; background-color: rgb(255, 255, 255); padding: 35px 25px 25px; width: 60%; max-width: 100%; margin: auto; margin-right: auto;" col-array="6,6">
+      <stripe-buy-button style="margin-left: auto; margin-right: auto;"
+        buy-button-id="{{ data.button_id }}"
+        publishable-key="{{ data.pub_key }}"
+      >
+      </stripe-buy-button>
+  </div>
+</div>

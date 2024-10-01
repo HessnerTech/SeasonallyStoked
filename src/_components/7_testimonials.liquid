@@ -1,26 +1,21 @@
-<div class="container noTopMargin padding40-top padding40-bottom padding40H noBorder borderSolid border3px  radius0  activeSection_topBorder0 activeSection_bottomBorder0 fullContainer  bgCover" style="background-color: var(--blue); padding-top: 0px; padding-bottom: 75px; outline: none; margin-top: 0px;">
-  <div class="containerInner ui-sortable" style="padding-left: 100px; padding-right: 100px;">
-    <div class="row bgCover noBorder borderSolid border3px  radius0  P0-top P0-bottom P0H noTopMargin" style="padding-top: 40px; padding-bottom: 45px; margin: 0px; outline: none;">
-      <div class="col-md-12 innerContent " style="outline: none;">
-        <div class="col-inner bgCover  noBorder borderSolid border3px  radius0  P0-top P0-bottom P0H noTopMargin" style="padding: 0 10px">
-          <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 0px; outline: none; cursor: pointer; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
-            <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0  mfs_28" style="text-align: center; font-size: 60px; color: rgb(255, 255, 255);">
-              {{ data.headline }}
-            </div>
-          </div>
-          <div class="de elHeadlineWrapper ui-droppable de-editable"style="margin-top: 0px; outline: none; cursor: pointer; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
-            <div class="ne elHeadline hsSize2 lh3 elMargin0 elBGStyle0  mfs_18" style="text-align: center; font-size: 26px; color: rgb(255, 255, 255);" >{{ data.sub_headline }}</div>
-          </div>
+<div class="row bgCover noBorder borderSolid border3px  radius0  P0-top P0-bottom P0H noTopMargin" style="padding-top: 40px; padding-bottom: 45px; margin: 0px; outline: none;">
+  <div class="col-md-12 innerContent " style="outline: none;">
+    <div class="col-inner bgCover  noBorder borderSolid border3px  radius0  P0-top P0-bottom P0H noTopMargin" style="padding: 0 10px">
+      <div class="de elHeadlineWrapper ui-droppable de-editable" style="margin-top: 0px; outline: none; cursor: pointer; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
+        <div class="ne elHeadline hsSize3 lh4 elMargin0 elBGStyle0  mfs_28" style="text-align: center; font-size: 60px; color: rgb(255, 255, 255);">
+          {{ data.headline }}
         </div>
       </div>
+      <div class="de elHeadlineWrapper ui-droppable de-editable"style="margin-top: 0px; outline: none; cursor: pointer; font-family: Lato, Helvetica, sans-serif !important;" aria-disabled="false" data-google-font="Lato">
+        <div class="ne elHeadline hsSize2 lh3 elMargin0 elBGStyle0  mfs_18" style="text-align: center; font-size: 26px; color: rgb(255, 255, 255);" >{{ data.sub_headline }}</div>
+      </div>
     </div>
-    
-    {% render "testimonial_row", row: data.row1 %}
-    <hr>
-    {% render "testimonial_row", row: data.row2 %}
-    <hr>
-    {% render "testimonial_row", row: data.row3 %}
-    <hr>
-    {% render "payment_link" %}
   </div>
 </div>
+
+{% render "testimonial_row", row: data.row1 %}
+<hr>
+{% render "testimonial_row", row: data.row2 %}
+<hr>
+{% render "testimonial_row", row: data.row3 %}
+<hr>
